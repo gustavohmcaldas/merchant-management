@@ -27,7 +27,6 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping(value = "/user")
 @RequiredArgsConstructor
-@CrossOrigin()
 public class UserController extends ResponseEntityExceptionHandler {
 
 	private final UserService userService;
