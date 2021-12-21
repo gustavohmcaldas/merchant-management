@@ -3,7 +3,7 @@ jwt:
 
 spring:
   profiles:
-    active: test
+    active: dev
 
 server:
   port: 8081
