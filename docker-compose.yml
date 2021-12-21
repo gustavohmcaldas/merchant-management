@@ -27,7 +27,7 @@ services:
   merchants-frontend:
     image: gustavohmcaldas/merchants-frontend:latest
     ports:
-    - "8080:80"
+    - "4200:80"
     mem_limit: 512m
 
 volumes:
